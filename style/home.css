@@ -1,0 +1,93 @@
+body{
+    background: rgb(182, 73, 255);
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+}
+#enter{
+    margin: 11px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 50px;   
+    border-color:white ;
+    border: 3px solid  rgb(255, 237, 77);
+}
+#btn1{
+    margin: 11px;
+    font-size: 18px;
+    border-radius: 100%;
+    background-color: rgb(255, 237, 77);
+    border-color:white ;
+    color: white;
+}
+#select{
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid  rgb(255, 237, 77);
+}
+
+#ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container{
+    margin-right: 47px;
+    width: 37%;
+    margin-top: 26px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid  rgb(255, 237, 77);
+    padding: 0px;
+    height: 35px;
+    background: white;
+    border-radius: 6px;
+}
+#content{
+    /* margin-right: 50px; */
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+#content button {
+    height: 22px;
+}
+#content li{
+    /* margin-right: 50px; */
+    list-style: none;
+    
+    
+    font-size: 18px;
+    
+    padding-left: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    margin: 10px;
+    width: 100%;
+}
+
+.btn2{
+    border: none;
+    background-color: white;
+    margin: 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+#done{
+    color: rgb(165, 165, 165);
+}
